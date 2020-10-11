@@ -3,21 +3,18 @@
 
 int main()
 {
-	char ch[100],*p,*s;
+	char ch[100];
 	printf("Enter code :");
 	scanf("%[^\n]s", ch);
-	p = ch;
-	s = ch;
-	while (*p != '\0')
+	
+	for (int i = 0; ch[i] != '\0'; ++i)
 	{
-		if (*p == 'p' || *p == 'P')
-		{
-			*p = '\0';
-			++p;
-			*p = '\0';
-			
-		}
-		printf("%c", *p);
-		p++;		
-	}	
+		printf("%c", ch[i]);
+			if (ch[i] == 'A' || ch[i] == 'a' || ch[i] == 'e' || ch[i] == 'E' || ch[i] == 'I' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'O' || ch[i] == 'U' || ch[i] == 'u')
+			{
+				i += 2;
+			}
+	}
+	
 }
+
