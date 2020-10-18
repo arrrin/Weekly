@@ -1,0 +1,5 @@
+﻿  source.c
+C:\Users\autio\OneDrive\เอกสาร\source.c(7,7): warning C4101: 'answer': unreferenced local variable
+C:\Users\autio\OneDrive\เอกสาร\source.c(5,6): warning C4101: 'row': unreferenced local variable
+C:\Users\autio\OneDrive\เอกสาร\source.c(5,11): warning C4101: 'col': unreferenced local variable
+  Weekly_8.vcxproj -> C:\Users\autio\source\repos\Weekly_8\Debug\Weekly_8.exe
