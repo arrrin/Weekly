@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-main()
+int main()
 {
 	int row, col;
 	int A[10][10], B[10][10], C[10][10], RowA, RowB, ColA, ColB, x, y, z, sum;
